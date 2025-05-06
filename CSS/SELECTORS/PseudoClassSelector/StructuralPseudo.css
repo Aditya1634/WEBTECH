@@ -1,0 +1,13 @@
+div h1:first-child{
+    background-color: aqua;
+}
+div h2:nth-child(3){
+    background-color: violet;
+}
+div h2:last-child{
+    background-color: green;
+}
+div h2:nth-child(2n){
+    background-color: maroon;
+}
+

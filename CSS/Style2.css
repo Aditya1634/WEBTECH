@@ -1,0 +1,35 @@
+.actors{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#actor1{
+    background-color: red;
+}
+#actor2{
+    background-color: green;
+    text-align: center;
+}
+#actor3{
+    background-color: plum;
+    text-align: right;
+}
+#ResumeContent{
+    background-color: cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.Don{
+    background-color: midnightblue;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 300px;
+}
+.imgs{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    height: 210px;
+}

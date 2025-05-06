@@ -1,0 +1,14 @@
+section:hover{
+    color: red;
+    background-color: beige;
+    border: 3px solid black;
+}
+a:active{
+    color: brown;
+    background-color: blueviolet;
+}
+
+input:focus{
+    color: red;
+    background-color: aqua;
+}

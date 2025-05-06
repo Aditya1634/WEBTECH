@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<style>
+     section{
+        height: 200px;
+        width: 200px;
+        background-color: orange;
+        position: relative;
+        animation-name: move;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+     }
+     @keyframes move{
+        0%{
+            top: 0;
+            left: 0;
+            background-image: url(https://www.sidechef.com/recipe/3883dffb-5fa2-4ee9-8054-d8de1409899f.jpg?d=1408x1120);
+            background-size: cover;
+        }
+        25%{
+            top: 0;
+            left: 1100px;
+            background-image: url(https://vaya.in/recipes/wp-content/uploads/2018/03/Ambur-Chicken-Biriyani.jpg);
+            background-size: cover;
+        }
+        50%{
+            top: 450px;
+            left: 1100px;
+            background-image: url(https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Instant-Pot-Mumbai-Pav-Bhaji-Recipe.jpg);
+            background-size: cover;
+        }
+        75%{
+            left: 0;
+            top: 450px;
+            background-image: url(https://www.cubesnjuliennes.com/wp-content/uploads/2023/10/Best-Crispy-Plain-Dosa-Recipe.jpg);
+            background-size: cover;
+        }
+        100%{
+            top: 0;
+            left: 0;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg);
+            background-size: cover;
+        }
+     }
+
+     h1{
+        color: rgb(255, 0, 0);
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+        left: 30%;
+        margin-top: 50px;
+        font-size: 120px;
+        text-shadow: 2px 2px 2px black, 2px 2px 2px black,2px 2px 2px black, 2px 2px 2px black, 2px 2px 2px black, 2px 2px 2px black;
+     }
+</style>
+<body>
+     <section></section>
+     <h1>FoodMenu</h1>
+</body>
+</html>

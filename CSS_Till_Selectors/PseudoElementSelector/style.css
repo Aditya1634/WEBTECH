@@ -1,0 +1,25 @@
+p::first-letter {
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+}
+
+section::first-line {
+  color: rgb(121, 214, 90);
+  background-color: black;
+}
+
+p::before {
+  content: "🐼";
+}
+section::after {
+  content: "🤨";
+}
+section::selection {
+  background-color: white;
+  color: white;
+}
+
+li::marker {
+  color: red;
+}

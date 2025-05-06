@@ -1,0 +1,36 @@
+#actorOne {
+  color: brown;
+  background-color: yellow;
+  text-align: center;
+}
+
+#actorTwo {
+  color: purple;
+  background-color: red;
+}
+
+#megaStar {
+  color: violet;
+  background-color: black;
+  text-align: right;
+}
+
+.actor {
+  font-size: 100px;
+}
+
+h1,
+p,
+i {
+  font-family: cursive;
+}
+
+#actorOne,
+#actorTwo,
+#megaStar {
+  font-style: oblique;
+}
+
+.thirdActor {
+  text-align: left;
+}

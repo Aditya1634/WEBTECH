@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> <h1>Song Playing</h1>
+    <div class="fa-3x">
+        <i class="fa-solid fa-volleyball fa-bounce"></i>
+      
+        <!-- bounce with extra rebound and "squish" on landing -->
+        <i class="fa-solid fa-basketball fa-bounce" style="--fa-bounce-land-scale-x: 1.2;--fa-bounce-land-scale-y: .8;--fa-bounce-rebound: 5px;"></i>
+      
+        <!-- bounce animation with no "squish" -->
+        <i class="fa-solid fa-frog fa-bounce" style="--fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1;"></i>
+      
+        <!-- bounce animation with no "squish" or "rebound" -->
+        <i class="fa-solid fa-envelope fa-bounce" style="--fa-bounce-start-scale-x: 1;--fa-bounce-start-scale-y: 1;--fa-bounce-jump-scale-x: 1;--fa-bounce-jump-scale-y: 1;--fa-bounce-land-scale-x: 1;--fa-bounce-land-scale-y: 1;--fa-bounce-rebound: 0;"></i>
+      </div>
+      <div class="fa-3x">
+        <i class="fa-solid fa-face-smile fa-flip"></i>
+        <i class="fa-solid fa-face-dizzy fa-flip"></i>
+        <i class="fa-solid fa-face-angry fa-flip"></i>
+        <i class="fa-solid fa-face-grin-squint-tears fa-flip" style="--fa-flip-x: 1; --fa-flip-y: 0;"></i>
+        <i  class="fa-solid fa-face-grin-wink fa-flip"  style="--fa-animation-duration: 3s;"></i>
+      </div>
+    <audio src="./Hookah Bar Khiladi 786 128 Kbps.mp3" controls  style="margin-top: 20px;"></audio>
+</body>
+</html>

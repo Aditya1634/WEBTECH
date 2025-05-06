@@ -1,0 +1,42 @@
+/* Descendant Selector */
+/* Symbol is " " one space*/
+/* Give space and it targets both direct and indirect child */
+
+main h1 {
+  background-color: pink;
+}
+main aside {
+  background-color: plum;
+  /* It will select the entire tags inside aside as it is a container tag */
+}
+
+/* Child Selector */
+/* Targets only Child elements
+    Symbol is ">"
+*/
+main > h1 {
+  background-color: blueviolet;
+}
+
+/* Sibling selector
+  Adjacent Sibling Selctor
+  Symbol: "+"
+  Will select next tag 2nd one after +
+*/
+
+/* p + p {
+  background-color: red;
+}
+
+.bigsis + .smallsis {
+  background-color: bisque;
+} */
+
+/* 
+General Selector
+Symbol ~
+selects everyone */
+
+.bigsis ~ .smallsis {
+  background-color: magenta;
+}

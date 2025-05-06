@@ -1,0 +1,16 @@
+.card{
+    height: 300px;
+    width: 400px;
+    margin: 100px;
+    background-color: green;
+    border: 5px solid black;
+    overflow: hidden;
+}
+.card img{
+    height: inherit;
+    width: inherit;
+}
+.card img:hover{
+    transform: scale(1.2);
+    transition: .6s;
+}

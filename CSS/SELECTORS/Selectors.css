@@ -1,0 +1,64 @@
+/* Decedence Selector */
+main h1{
+    background-color:tomato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside div{
+    background-color: blueviolet;
+}
+
+/* Child Selector */
+span>h1{
+    background-color: yellow;
+}
+
+
+/* ADJECENT SIBLING */
+div+p{
+    background-color: plum;
+}
+p+p{
+    background-color: goldenrod;
+}
+
+/* GENERAL SIBLING SELECTOR */
+.bigSis~.smallSis{
+    background-color: cadetblue;
+}
+
+
+/* ATTRIBUTE SELECTOR */
+a[target="_blank"]{
+    background-color: red;
+}
+
+a[target]{
+    background-color:blue;
+}
+
+/* Seudo selector */
+p::first-letter{
+    font-size: 30px;
+    color: red;
+}
+div::first-line{
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: grey;
+}
+h4::before{
+    content: "🥵 Hii, ";
+}
+h4::after{
+    content: "😉";
+}
+p::selection{
+    background-color: magenta;
+    color: aqua;
+}
+h1::selection{
+    background-color: white;
+    color: white;
+}
+

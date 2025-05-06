@@ -1,0 +1,71 @@
+/* *{
+    background-image: url(https://media.istockphoto.com/id/1325997570/photo/bengal-cat-lying-on-sofa-and-smiling.jpg?s=612x612&w=0&k=20&c=U6HBa06jHDDZ4Wbd1GylTEybkvUCUaMf7blxCr-bon0=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+} */
+.col{
+    margin-top: 500px;
+    height: 300px;
+    width: 100%;
+    background-color: magenta;
+    background-color: #ff0000;
+    background-color: rgb(25, 25, 125);
+    background-color: rgba(25, 152, 224, 50%);
+    background-color: hsl(50deg, 60%, 50%);
+    background-color: hsla(265, 41%, 48%, 0.938);
+}
+.bg1{
+    background: conic-gradient( violet,indigo,blue,green,orange,yellow,red);
+    height: 200px;
+    width: 250px;
+}
+.bg2{
+    background: linear-gradient(violet,indigo,blue,green,orange,yellow,red);
+    height: 200px;
+    width:200px;
+    margin-top: 20px;
+}
+.bg3{
+    background: radial-gradient(violet,indigo,blue,green,orange,yellow,red);
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+}
+.bg4{
+    background: linear-gradient(orange,white,white,green);
+    height: 200px;
+    width: 300px;
+    margin-top: -630px;
+    margin-left: 300px;
+}
+.bg5{
+    background: linear-gradient( 90deg,orange,white,white,green);
+    height: 200px;
+    width: 300px;
+    margin-top: -200px;
+    margin-left: 700px;
+}
+.bg6{
+    background-image: url(https://wallpapercat.com/w/full/a/b/0/14889-2048x1152-desktop-hd-stranger-things-background-image.jpg);
+    height: 450px;
+    width: 500px;
+    margin: 20px 0px 0px 250px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-blend-mode: hard-light;
+}
+.bg7{
+    background-image: url(https://wallpapercat.com/w/full/a/b/0/14889-2048x1152-desktop-hd-stranger-things-background-image.jpg);
+    height: 450px;
+    width: 500px;
+    margin: -450px 800px;
+    filter: blur(2px);
+    filter: brightness(100%);
+    filter: contrast(100%);
+    filter: grayscale(50%);
+    filter: opacity(80%);
+    filter: hue-rotate(75deg);
+}
+

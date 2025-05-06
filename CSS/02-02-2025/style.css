@@ -1,0 +1,14 @@
+.card{
+    border: 20px outset red;
+    width: 400px;
+    height: auto;
+    border-bottom-color: aqua;
+    border-top-color: blueviolet;
+    border-top-width: 30px;
+    outline: 90px;
+    outline-offset: 100px;
+}
+
+.card img{
+    width: 400px;
+}
