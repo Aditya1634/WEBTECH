@@ -1,0 +1,36 @@
+.box{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  animation: party 1s ease infinite;
+}
+
+@keyframes party {
+  10%{
+    background-color: greenyellow;
+  }
+  20%{
+    background-color: blue;
+  }
+  30%{
+    background-color: magenta;
+  }
+  40%{
+    background-color: pink;
+  }
+  50%{
+    background-color: plum;
+  }
+  40%{
+    background-color: green;
+  }
+  30%{
+    background-color: indianred;
+  }
+  20%{
+    background-color: orange;
+  }
+  10%{
+    background-color: orangered;
+  }
+}

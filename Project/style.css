@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  /* 1 rem = 16px */
+  height: 10rem;
+  width: 100%;
+  background-color: yellow;
+}
+.header .navbar{
+  
+}

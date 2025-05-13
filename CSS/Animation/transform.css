@@ -1,0 +1,83 @@
+.card{
+
+
+    height: 200px;
+    width: 200px;
+    background:conic-gradient(pink,black,blue , purple, plum,red,green , yellow,magenta);
+    margin: 200px;
+    border-radius: 50%;
+    position: relative;
+
+    
+}
+.card1{
+
+
+    height: 400px;
+    width: 400px;
+    background:conic-gradient(pink,black,blue , purple, plum,red,green , yellow,magenta);
+    margin: 400px;
+    border-radius: 50%;
+    position: relative;
+
+    
+}
+.card:hover{
+
+    transform: scale(2);
+    transform: scaleX(3);
+    transform: scaleY(4);
+
+    
+    transform: skew(90deg);
+    transform: skewX(45deg);
+    transform: skewY(-90deg);
+
+
+    transform: rotate(1800deg) scale(-2) ;
+    transform: rotateX(1800deg);
+    transition: 2s;
+    
+
+}
+.card1:hover{
+
+    transform: scale(2);
+    transform: scaleX(3);
+    transform: scaleY(4);
+
+    
+    transform: skew(90deg);
+    transform: skewX(45deg);
+    transform: skewY(-90deg);
+
+
+    transform: rotate(1800deg) scale(-2) ;
+    transform: rotateX(1800deg);
+    transition: 2s;
+    
+
+}
+.hole{
+
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.hole1{
+
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 85px;
+    left: 85px;
+}
+/* audio{
+    visibility: ;
+} */
