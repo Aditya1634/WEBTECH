@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.header {
+  height: 10rem;
+  width: 100%;
+}
+
+.header .navbar {
+  height: 7rem;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+}
+
+.header .navbar .first {
+  width: 65%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header .navbar .first ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.header .navbar .first ul li {
+  font-size: 1.1rem;
+  padding: 20px;
+}
+
+/* SECOND NAVBAR STARTING FROM HERE */
+.header .navbar .second {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 0.1rem; */
+  padding: 10px;
+}
+
+.header .navbar .second #btn1 {
+  width: 70px;
+  display: flex;
+  padding: 5px 25 px 5px 5px;
+  border: none;
+  font-size: 17px;
+}
+.header .navbar .second #btn2 {
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.header .navbar .second #btn2:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.header .navbar .second #btn1:hover {
+  border-radius: 20px;
+  background-color: gray;
+  cursor: pointer;
+  color: royalblue;
+}
+.second img:hover {
+  border-radius: 50%;
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+/* AFTER NAVBAR TEXT AND IMAGES */
+
+.agent {
+  background-color: navy;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  color: white;
+}
+
+.agent a {
+  color: white;
+  font-size: 2rm;
+  padding-left: 20px;
+}
+
+.agent p {
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.intro-page {
+  height: 30rem;
+  width: 100%;
+  background-image: url(Images/background.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.intro-page .content {
+  height: 380px;
+  width: 45%;
+}
+
+.intro-page .content h1 {
+  font-size: 44px;
+  padding: 40px;
+  color: navy;
+  padding-left: 20px;
+}
+.intro-page .content h1::selection {
+  background-color: skyblue;
+}
+
+.intro-page .content p {
+  font-size: 17px;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.intro-page .content button {
+  padding: 12px 32px;
+  color: #0176d3;
+  position: relative;
+  top: 50px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.intro-page .content button:first-of-type {
+  background-color: #0176d3;
+  color: white;
+  font-weight: 500;
+  padding: 14px 32px;
+}
+
+/* SIDEVIEDEO STARTING FROM HERE     */
+.intro-page .video {
+  height: 380px;
+  width: 40%;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.intro-page #video1 {
+  border-radius: 20px;
+  height: 340px;
+}
+
+.intro-page .video img {
+  position: absolute;
+  height: 90px;
+  border-radius: 50%;
+  top: 40%;
+  left: 70%;
+}
+
+/* CHATBOT ASIDE BAR code */
+
+.chatbot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, navy, rgb(2, 80, 217));
+  width: 200px;
+  margin-left: 1200px;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+  gap: 10px;
+  position: fixed;
+  cursor: pointer;
+}
+
+.chatbot img {
+  border-radius: 50%;
+  height: 40px;
+}
+.card-parent {
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 200px;
+  background-image: url(./Images/pb-hp-products-bg.webp);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+
+.card-parent #title {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  top: 25px;
+}
+
+.card-parent .cards {
+  height: 420px;
+  width: 1300px;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  top: 70px;
+  left: 30px;
+}
+
+.card-parent .cards .card {
+  height: 410px;
+  width: 290px;
+  /* background-color: rd;    */
+  border: 1px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 2px;
+}
+
+.card img {
+  width: inherit;
+  height: 50%;
+  border-radius: 20px;
+}
+
+.card h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.card p {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.card a {
+  display: block;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.card-parent button {
+  padding: 12px 32px;
+  font-size: 10px;
+  border: 2px solid rgb(2, 80, 217);
+  border-radius: 5px;
+  position: absolute;
+  top: 600px;
+  left: 45%;
+  color: #0176d3;
+  background-color: white;
+}
+
+.card-parent button:focus {
+  outline: 5px solid #0176d3;
+}
+
+.demo {
+  height: 500px;
+  width: 100%;
+  padding: 30px;
+}
+
+.demo h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.demo p {
+  font-weight: 500;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.demo button {
+  padding: 16px 32px;
+  border: 2px solid #0176d3;
+  background: white;
+  color: #0176d3;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  left: 555px;
+}
+.demo button:last-child {
+  left: 575px;
+}
+.products {
+  height: 600px;
+  width: 100%;
+  background-color: yellow;
+}
+.products button {
+  padding: 16px 32px;
+  font-weight: 700;
+  border: 2px solid #0176d3;
+  background: white;
+  color: #0176d3;
+  border-radius: 6px;
+  position: relative;
+  top: 50px;
+  left: 580px;
+}
+.products .grid-Box {
+  height: 600px;
+  width: 90%;
+  background-color: lawngreen;
+  position: relative;
+  left: 60px;
+  top: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px;
+}
+
+.products .grid-Box .child {
+  height: 100px;
+  width: 300px;
+  box-shadow: 0px 0px 3px 4px;
+  border-radius: 10px;
+}
